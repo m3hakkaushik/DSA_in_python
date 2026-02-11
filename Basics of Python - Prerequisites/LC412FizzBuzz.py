@@ -9,7 +9,7 @@ Constraints:
 1 <= n <= 104
 """
 
-
+n=4
 class Solution:
     def fizzbuzz(self,n:int) -> List[str]:
         ans=[]
@@ -23,3 +23,7 @@ class Solution:
             else:
                 ans.append(str(i))
         return ans
+    
+if __name__ == "__main__":
+    obj = Solution()
+    print(obj.fizzbuzz(4))
