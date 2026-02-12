@@ -7,14 +7,16 @@ Constraints:
 0 <= nums[i] <= 100
 """
 
-nums=[8,1,4,3,2,8,0,6,8,9,3.]
+from typing import List
+
+nums=[8,1,4,3,2]
 class Solution:
-    def smallerNumbersThanCurrent(self,nums: List[int]) -> List[int]:
-        ans =[0]*len(nums)
-        for i in range(len(nums)):
+    def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
+        ans=[]
+        for i in nums:
             c=0
-            for j in range(len(nums)):
-                if j<i:
+            for j in nums:
+                if j<i :
                     c+=1
             ans.append(c)
         return ans

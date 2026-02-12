@@ -9,6 +9,9 @@ Constraints:
 1 <= n <= 104
 """
 
+from typing import List
+
+
 n=4
 class Solution:
     def fizzbuzz(self,n:int) -> List[str]:
