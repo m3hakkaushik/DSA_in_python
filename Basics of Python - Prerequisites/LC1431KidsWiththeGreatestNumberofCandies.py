@@ -11,7 +11,8 @@ n == candies.length
 from typing import List
 
 
-Candies=[2,3,4,5,5]
+candies=[2,3,5,1,3]  
+extraCandies=3
 class Solution:
     def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:
         maxCandies = max(candies)
@@ -24,6 +25,12 @@ class Solution:
                 ans.append(False)
 
         return ans
+    
+
+
+if __name__ == "__main__":
+    obj = Solution()
+    print(obj.kidsWithCandies(candies,extraCandies))
 
 
 #   return[(i+extraCandies)>=max(candies) for i in candies ]
