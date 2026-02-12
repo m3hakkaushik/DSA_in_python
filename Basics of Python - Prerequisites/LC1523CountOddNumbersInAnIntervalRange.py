@@ -1,4 +1,5 @@
-"""Given two non-negative integers low and high. Return the count of odd numbers between low and high (inclusive).
+"""Given two non-negative integers low and high.
+Return the count of odd numbers between low and high (inclusive).
 
 Constraints:
 0 <= low <= high <= 10^9"""
@@ -10,4 +11,4 @@ class Solution:
     
 if __name__ == "__main__":
     obj = Solution()
-    print(obj.countOdds(4,80))
+    print(obj.countOdds(4,80))  
