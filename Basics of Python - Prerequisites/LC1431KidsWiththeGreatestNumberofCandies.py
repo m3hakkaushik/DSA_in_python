@@ -8,6 +8,9 @@ n == candies.length
 1 <= candies[i] <= 100
 1 <= extraCandies <= 50"""
 
+from typing import List
+
+
 Candies=[2,3,4,5,5]
 class Solution:
     def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:
