@@ -19,7 +19,7 @@ class Solution:
 
         return product-sum_
     
-# if __name__ == "__main__":
-#     obj = Solution()
-#     print(obj.subtractProductAndSum(num))   
+if __name__ == "__main__":
+    obj = Solution()
+    print(obj.subtractProductAndSum(346))   
         
